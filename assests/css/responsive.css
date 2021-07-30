@@ -1,0 +1,19 @@
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .content-section {
+        padding-left: 16px;
+        padding-right: 16px;    
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .search-btn {
+        display: none;
+    }
+    #main #header #nav li {
+        display: block;
+        float: none;
+    }
+}
